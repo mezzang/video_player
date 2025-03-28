@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.video-section {
+  flex: 2;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-section video {
+  width: 90%;
+  border: 2px solid #ccc;
+}
+
+.info-section {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
